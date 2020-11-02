@@ -1,0 +1,22 @@
+@import url("./_active/header__lang-link_active.css");
+
+.header__lang-link {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.header__lang-link:nth-child(2) {
+  margin-left: 18px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 1.125rem;
+    line-height: 1.1;
+  }
+}
