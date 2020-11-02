@@ -1,20 +1,20 @@
 .place__paragraph {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: normal;
-font-size: 1.125rem;
-line-height: 163%;
-color: white;
-margin: 0;    
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 163%;
+  color: white;
+  margin: 0;
 }
 
 .place__paragraph:nth-child(2) {
-    margin-top: 26px;
+  margin-top: 26px;
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
-        font-size: 1rem;
-        line-height: 1.1;
-    }
+  .place__paragraph {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
 }
