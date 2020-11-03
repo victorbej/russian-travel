@@ -1,3 +1,5 @@
+@import url('./_active/header__lang-link_active.css');
+
 .header__lang-link {
   color: #ffffff;
   font-family: "Inter";
@@ -13,10 +15,6 @@
   text-decoration: none;
 }
 
-.header__lang-link:active {
-  text-decoration-line: underline;
-  text-underline-position: under;
-}
 
 @media (max-width: 320px) {
   .header__lang-link {

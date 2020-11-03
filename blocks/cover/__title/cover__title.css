@@ -11,9 +11,26 @@
   margin: 245px auto 32px;
 }
 
+@media (max-width: 768px) {
+  .cover__title {
+    margin: 115px 104px 32px;
+  }
+}
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 109%;
+  }
+}
+
 @media (max-width: 320px) {
   .cover__title {
     font-size: 32px;
     line-height: 109%;
+    width: 288px;
+    height: 70px;
+    margin: 33px 16px 16px;
   }
 }

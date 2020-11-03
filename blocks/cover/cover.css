@@ -4,22 +4,14 @@
 @import url("./__background/cover__background.css");
 
 .cover {
-
-    /* width: 100%; */
-    /* min-width: 100%; */
-    /* height: 100%; */
     position: relative;
     margin: 0 48px 92px;
-    /* background-size: cover; */
-    /* max-width: 1184px; */
-    /* max-width: calc(100% - 6rem); */
     display: flex;
     justify-content: center;
 }
 
-/*@media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .cover {
-    width: 1024px;
     height: 640px;
     margin-left: 0;
     margin-right: 0;
@@ -35,6 +27,14 @@
   }
 }
 
+@media (min-width: 321px) and (max-width: 767px) {
+  .cover {
+    margin-left: 0;
+    width: inherit;
+    margin-right: 0;
+  }
+}
+
 @media (max-width: 320px) {
   .cover {
     width: 320px;
@@ -42,4 +42,4 @@
     margin-left: 0;
     margin-right: 0;
   }
-} */
+}
