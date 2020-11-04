@@ -29,8 +29,8 @@
   .cover__title {
     font-size: 32px;
     line-height: 109%;
-    width: 288px;
-    height: 70px;
+    max-width: 288px;
+    max-height: 70px;
     margin: 33px 16px 16px;
   }
 }

@@ -1,6 +1,6 @@
 .lead__subtitle {
   color: white;
-  margin: 32px 172px 64px;
+  margin: 32px auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -9,11 +9,6 @@
   text-align: center;
 }
 
-@media (max-width: 1024px) {
-  .lead__subtitle {
-    margin: 32px 144px 56px;
-  }
-}
 
 @media (min-width: 768px) {
   .lead__subtitle {
