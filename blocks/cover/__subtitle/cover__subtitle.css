@@ -11,12 +11,12 @@
   margin: 0 auto 245px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 114%;
     max-width: 288px;
     height: 70px;
-    margin: 33px 16px 16px;
+    margin: 33px auto 16px;
   }
 }

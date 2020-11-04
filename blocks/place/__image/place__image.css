@@ -4,21 +4,21 @@
   grid-area: Image;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .place__image {
     max-width: 440px;
     max-height: 440px;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .place__image {
     max-width: 340px;
     max-height: 340px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .place__image {
     max-width: 320px;
     max-height: 320px;

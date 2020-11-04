@@ -2,19 +2,19 @@
   grid-area: Paragraphs;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .place__paragraphs {
     max-width: 456px;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .place__paragraphs {
     max-width: 352px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .place__paragraphs {
     max-width: 288px;
     margin: 0 16px 0;
