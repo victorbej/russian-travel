@@ -6,8 +6,8 @@
 .intro {
   display: flex;
   flex-direction: column;
-  max-width: 690px;
-  margin: 114px 442px 0 148px;
+  margin: 114px auto 0;
+  max-width: calc(100% - 18.5rem);
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

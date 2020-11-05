@@ -29,16 +29,12 @@
 
 @media (min-width: 426px) and (max-width: 767px) {
   .cover {
-    margin-left: 0;
     width: inherit;
-    margin-right: 0;
   }
 }
 
 @media (max-width: 425px) {
   .cover {
-    margin-left: 0;
-    margin-right: 0;
     width: auto;
     height: auto;
   }

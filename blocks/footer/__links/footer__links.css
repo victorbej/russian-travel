@@ -1,5 +1,8 @@
 .footer__links {
   position: relative;
+  list-style: none;
+  display: flex;
+  padding: 0;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

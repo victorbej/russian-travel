@@ -8,7 +8,6 @@
   text-align: center;
   color: #ffffff;
   max-width: 360px;
-  margin: 0 auto 245px;
 }
 
 @media (max-width: 425px) {
@@ -16,7 +15,6 @@
     font-size: 14px;
     line-height: 114%;
     max-width: 288px;
-    height: 70px;
     margin: 33px auto 16px;
   }
 }

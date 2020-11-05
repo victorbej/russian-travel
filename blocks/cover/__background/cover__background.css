@@ -4,10 +4,10 @@
   height: 100%;
   background-size: cover;
   background-position: bottom;
+  transition: 0.4 ease linear;
 }
 
 .cover__background:hover {
   opacity: 0.8;
-  transition: 0.4 ease linear;
   cursor: pointer;
 }
