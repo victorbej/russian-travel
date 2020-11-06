@@ -1,7 +1,6 @@
 .lead__title {
   color: white;
   margin: 0;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 6rem;
@@ -16,7 +15,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .lead__title {
     font-size: 2.5rem;
     line-height: 1.1;
