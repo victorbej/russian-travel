@@ -44,7 +44,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
   .place {
     margin-left: 0;
     margin-right: 0;

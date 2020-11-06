@@ -1,5 +1,4 @@
 .cover__title {
-  position: relative;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -7,12 +6,7 @@
   text-align: center;
   color: #ffffff;
   max-width: 560px;
-}
-
-@media (max-width: 768px) {
-  .cover__title {
-    margin: 115px 104px 32px;
-  }
+  position: relative;
 }
 
 
@@ -26,6 +20,5 @@
 @media (max-width: 425px) {
   .cover__title {
     max-width: 288px;
-    margin: 33px auto 16px;
   }
 }

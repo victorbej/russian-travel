@@ -6,8 +6,3 @@
   background-position: bottom;
   transition: opacity 0.4s;
 }
-
-.cover__background:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}

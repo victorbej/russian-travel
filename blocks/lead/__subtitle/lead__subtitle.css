@@ -11,7 +11,9 @@
 
 @media (min-width: 768px) {
   .lead__subtitle {
-    margin: 32px 64px 56px;
+    margin-right: 64px;
+    margin-left: 64px;
+    margin-bottom: 56px;
   }
 }
 
