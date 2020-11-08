@@ -11,12 +11,12 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+/*@media (min-width: 426px) and (max-width: 768px) {
   .place__image {
     max-width: 340px;
     max-height: 340px;
   }
-}
+}*/
 
 @media (max-width: 425px) {
   .place__image {
